@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #131720;
+  font-family: sans-serif;
+  color: white;
+}
+
+h3{
+  color:white;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: #131720;
+  padding: 10px;
+}
+
+
+.topnav {
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Center items vertically */
+  background-color: #131720;
+  padding: 10px;
+}
+
+.topnav .LogoLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.topnav .search-container {
+  margin-left: auto; /* Push search container to the right */
+}
+
+.topnav input[type="search"] {
+  width: 200px; /* Adjust width of search input as needed */
+  padding: 5px;
+}
+
+.topnav form{
+  background-color: #151f30;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.topnav form input{
+  all: unset;
+  font: 15px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+
+.thumbnail{
+  height:350px;
+  width: 280px;
+  border-radius: 19px;
+}
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.card{
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #151f30;
+}
+
+.rev-link {
+    display: block;
+    color: white; /* Set the text color to white */
+    font-size: 0.9em; /* Make the font size slightly smaller */
+    text-decoration: underline;
+    margin-top: 10px;
+}
